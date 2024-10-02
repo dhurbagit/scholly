@@ -1,0 +1,51 @@
+/* 1920×1080 (Full HD)
+1366×768.
+1280×1024.
+1440×900.
+1600×900.
+1680×1050.
+1280×800.
+1024×768. */
+
+
+@media (max-width:1367px) {
+    .search_pannel {
+        width: 78%;
+    }
+
+    .search_wrap:before {
+        background-size: 79%;
+    }
+
+    #about_wrapper:before {
+        height: 178%;
+        background-size: 79%;
+    }
+
+    #Connect_counselor_wrapper:before {
+        left: -35px;
+        background-size: 37.9%;
+    }
+
+    .counseler_card {
+        padding: 39px 55px;
+    }
+    .howscholly_worksWrapper::before {
+        width: 17%;
+    }
+    #howScholly_work:before {
+     
+      
+        width: 38%;
+        height: 123%;
+        background-size: cover;
+    }
+    .card_howwehelp {
+        margin-top: 141px;
+    }
+    #howwehelp:before {
+        
+        height: 68%;
+         
+    }
+}

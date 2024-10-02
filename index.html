@@ -9,6 +9,7 @@
             href="assets/lineAwesome_1.3.0/css/line-awesome.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
     </head>
     <body>
         <div class="top_ribbon">
@@ -129,7 +130,7 @@
                     <div class="col-lg-10 m-auto">
                         <div class="tab_wrapper tab_wrapper_head">
                             <div class="row">
-                                <div class="col-lg-5">
+                                <div class="col-lg-6">
                                     <ul class="nav nav-tabs" id="myTab"
                                         role="tablist">
                                         <li class="nav-item"
@@ -507,7 +508,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 ms-auto">
+                    <div class="col-lg-5 ms-auto">
                         <div class="about_head">
                             <h3>Trusted by 1100+ <br>
                                 Australian Institutions </h3>
@@ -1272,6 +1273,11 @@
                 video_wrapperId.classList.add('video_before');
             });
 
+        </script>
+        <script>
+            var item_width = $('.tab_wrapper_head .nav .nav-item').width();
+            var length = $('.tab_wrapper_head .nav .nav-item').length
+            $(document).find('.tab_wrapper .nav-tabs').css('width', item_width * length);
         </script>
     </body>
 </html>
